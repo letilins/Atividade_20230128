@@ -1,0 +1,161 @@
+
+@font-face {
+  font-family: "Better Together" ;
+  src: url(./fontes/Better\ Together.ttf);
+}
+
+@font-face {
+  font-family: "Hello" ;
+  src: url(./fontes/Hello.ttf);
+}
+
+
+
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  border-bottom: 3px solid rgba(124, 17, 224, 0.821);
+}
+
+
+
+
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #e61212;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: rgba(137, 43, 226, 0.706);
+  text-align: center;
+  border-top: .05rem solid rgba(69, 26, 110, 0.821);
+  background-color:lightblue ;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+header{
+  background-color:lightblue ;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+}
+
+
+nav{
+  background-color: gainsboro;
+  display: flow-root;
+ 
+}
+
+img#mundo{
+  width: 40%;
+  margin: 40px;
+}
+
+p#letra{
+  color: rgba(137, 43, 226, 0.706);
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Better Together", cursive;
+}
+
+
+
+div#letrabonita{
+  text-decoration: none;
+    font-family: "Hello", cursive;
+    font-size: 28px;
+    
+}
+
+
+nav#cinza:hover{
+  background-color: gray;  
+}
+
+.viajar{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+}
+
+img#passaporte{
+  width: 30%;
+  margin: 10px ;
+}
+
+img#travel2{
+  width:40%;
+  margin: 30px ;
+}
+
+
+img#git{
+  width: 25%;
+  margin: 25px;
+}
+
+img#twitter{
+  width: 25%;
+  margin: 25px;
+}
+
+img#facebook{
+  width: 20%;
+  margin: 25px;
+}
+
+img#instagram{
+  width: 25%;
+  margin: 25px;
+}
